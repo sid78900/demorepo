@@ -21,4 +21,13 @@ public class HeadersLocators {
 	
 	@FindBy(linkText = "Login")
 	public static WebElement login;
+	
+	@FindBy(name="search")
+	public static WebElement searchh;
+	
+	@FindBy(css="button[class$='btn-lg']")
+	public static WebElement searchClick;
+	
+	@FindBy(xpath="//span[text()='Shopping Cart']")
+	public static WebElement shoppingCart;
 }

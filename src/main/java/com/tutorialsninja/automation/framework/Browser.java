@@ -52,6 +52,8 @@ public class Browser {
 			return Base.driver;
 		}
 
+	}public static void openbrowser() {
+		Base.driver.get(Base.reader.getUrl());
 	}
 
 	public static void maximize() {
